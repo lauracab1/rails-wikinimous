@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+.navbar .btn a {
+  text-decoration: none;
+  color: #FFFFFF
+}
+
+.article {
+  margin: 20px;
+}
+
+.articles-list a {
+  text-decoration: none;
+}
+
+.articles-list a:hover {
+  text-decoration: revert;
+}
